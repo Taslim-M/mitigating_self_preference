@@ -1,0 +1,90 @@
+# ------------------------------
+# Python / Environment
+# ------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+env/
+venv/
+ENV/
+.venv/
+.ipynb_checkpoints/
+
+# ------------------------------
+# IDE / Editor
+# ------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ------------------------------
+# Environment / Secrets
+# ------------------------------
+.env
+*.env
+*.apikey
+*.key
+*.pem
+
+# ------------------------------
+# Logs / Outputs
+# ------------------------------
+logs/
+*.log
+*.out
+*.err
+nohup.out
+results/
+output/
+*.jsonl.tmp
+*.tmp.json
+*.tmp
+*.bak
+*.old
+
+# ------------------------------
+# Data / Models
+# ------------------------------
+data/
+task_mbpp/data/
+task_quality/data/
+datasets/
+checkpoints/
+models/
+*.pt
+*.bin
+*.ckpt
+
+# ------------------------------
+# Jupyter / Reports
+# ------------------------------
+*.ipynb
+*.pdf
+*.csv
+*.xlsx
+*.ods
+*.pptx
+reports/
+figures/
+
+# ------------------------------
+# OS / Misc
+# ------------------------------
+*.zip
+*.tar
+*.gz
+*.bz2
+*.7z
+*.rar
+*.exe
+*.dll
+*.out

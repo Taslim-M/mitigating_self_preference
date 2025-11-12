@@ -1,0 +1,10 @@
+# Core
+python-dotenv>=1.0.0
+together>=1.2.0
+openai>=1.40.0
+
+# Async utils + progress
+tqdm>=4.66.0
+nest_asyncio>=1.5.8
+
+
