@@ -2,29 +2,14 @@
 
 This repository accompanies our research **“Mitigating Self-Preference by Authorship Obfuscation”**.  
 
-It provides reproducible scripts for evaluating **recognition** and **preference** behaviors of large language models (LLMs) across tasks such as **MBPP (code)** and **QuALITY (text QA)**, as well as utilities.
+It provides reproducible scripts for evaluating **recognition** and **preference** behaviors of LLMs across tasks such as **MBPP (code)** and **QuALITY (text QA)**, as well as utilities.
 
 ---
 
-## 🧩 Repository Structure
-
-mitigating_self_preference/
-├─ common/ # Shared utilities (clients, prompts, JSON helpers, etc.)
-├─ task_mbpp/ # Code-based MBPP experiments
-│ ├─ generate_restyle.py
-│ ├─ preference.py
-│ └─ recognition.py
-├─ task_quality/ # Text-based QA experiments
-│ ├─ generate_answers.py
-│ ├─ preference.py
-│ └─ recognition.py
-└─ requirements.txt
-
-Each `preference.py` and `recognition.py` file acts as a **main driver** for its respective experiment.
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 ### 1. Clone the repository
 
